@@ -4,7 +4,7 @@ int main()
 {
 	int int1,int2,rem,sum,temp;
 	scanf("%d %d",&int1,&int2);
-		while(int1<int2)
+		while(int1<int2-1)
 		{
 			sum=0;
 			int1++;
