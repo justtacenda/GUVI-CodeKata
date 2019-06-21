@@ -16,8 +16,8 @@ int main()
 		n_flag=1;
 	}
 	if(a_flag&&n_flag)
-	printf("yes");
+	printf("Yes");
 	else
-	printf("no");
+	printf("No");
 	return 0;
 }
