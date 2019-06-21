@@ -1,9 +1,9 @@
 //Check if String contains both alphabets and numbers
 #include<stdio.h>
-main()
+int main()
 {
 	char str[1000];
-	int i,len,a_flag,n6_flag;
+	int i,len,a_flag,n_flag;
 	a_flag=0,n_flag=0;
 	scanf("%[^\n]",str);
 	for(len=0;str[len];len++);
@@ -18,4 +18,5 @@ main()
 	printf("yes");
 	else
 	printf("no");
+	return 0;
 }
