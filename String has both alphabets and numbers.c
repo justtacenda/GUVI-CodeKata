@@ -1,5 +1,6 @@
 //Check if String contains both alphabets and numbers
 #include<stdio.h>
+#include<ctype.h>
 int main()
 {
 	char str[1000];
