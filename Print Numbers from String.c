@@ -14,6 +14,6 @@ int main()
 		flag=1;
 	}
 	if(flag==0)
-		printf("");
+		printf(" ");
 	return 0;
 }
