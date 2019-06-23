@@ -4,7 +4,7 @@ int main()
 {
 	int num,itr,sqr;
 	scanf("%d",&num);
-	sqr=num/2
+	sqr=num/2;
 	for(itr=1;itr<=sqr;itr++)
 	{
 		if(num%itr==0)
