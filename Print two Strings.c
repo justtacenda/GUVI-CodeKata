@@ -11,13 +11,15 @@ int main()
 	{
 		if(i&1)
 		{
-			second[even++]=str[i];
+			second[odd++]=str[i];
 		}
 		else
 		{
-			first[odd++]=str[i];
+			first[even++]=str[i];
 		}
 	}
+	second[odd]='\0';
+	first[even]='\0';
 	printf("%s %s",first,second);
 	return 0;
 }
